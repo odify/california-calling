@@ -1,0 +1,441 @@
+
+@font-face{
+    font-family: 'Larish';
+    src: url(../css/font/LarishNeueSemibold.woff)
+    src: url(../css/font/Larish\ Neue\ Semibold.woff2)
+  
+    src: url(../font/Larish\ Neue\ Semibold.woff2);
+    font-family: LarishNeueSemibold;
+    src: url(../font/LarishNeueSemibold.woff);
+}
+body{
+    height: 100%;
+    background-color: black;
+    text-align: center;
+    font-family: 'Work Sans';
+}
+header{
+background-color: black;
+text-align: center;
+width: 90%;
+}
+.line{
+    margin-left: 52.5%;
+    width: 1px;
+    height: 250px;
+    background-color: white;
+}
+.textb{
+   margin-left: 5%;
+    /* display: flex;
+    flex-direction: column; */
+    height: 80%s;
+    text-align: center;
+}
+
+header h3{
+    color: white;
+    font-size: 1em;
+    font-family: 'Work Sans' ;
+    text-align: center;
+}
+.cali{
+
+    color: white;
+    font-size: 2.5em;
+    font-family: 'Larish,';
+}
+.cali2 {
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 1px #fff;
+    font-size: 2.5em;
+    font-family: 'Larish,';
+}
+header h4{
+    color: white;
+    font-size: 1em;
+    font-family: 'Work Sans';
+    text-align: center;
+}
+.logo{
+    text-align: left;
+}
+.rsvp{
+    margin-left: 80%;
+}
+.rsvp a{
+    color: white;
+    border: 1px solid #fff;
+    border-width: 2px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 16px 32px;
+    font-family: 'Work Sans' ;
+}
+.rsvp a:hover{
+    background-color: #fff;
+    color: #000;
+    transition-duration: 0.8s;
+}
+#first-section{
+    width: 50vw;
+    margin-left: 5%;
+    margin-top: 10%;
+    color: #fff;
+    font-family:'Larish,';
+    text-align: left;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-image: url(../img/map.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#first-section p{
+    font-family: 'Work Sans' ;
+}
+#first-section h1{
+    font-size: 3em;
+}
+
+main .first-section {
+    
+    background-color: black;
+    color: white;
+
+    height: fit-content;
+}
+
+
+#section-dos{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    font-family:'Larish';
+    background-color: #fff;
+    height: 100vh;
+}
+.art-dos-1{
+    
+    margin-left: 20%;
+    width: 30vw;
+    text-align: left;
+    
+}
+.art-dos-1 h1{
+    font-size: 3em;
+    text-align: left;
+}
+
+.art-dos-2{
+    margin-top: 20%;
+    width: 30vw;
+    margin-left: 20%;
+    text-align: left;
+}
+
+.bild1{
+
+    margin-left: 60%;
+    position: relative;
+    width: 400px;
+    z-index: 6;
+    margin: -7%;
+}
+.bild2{
+    width: 20%;
+    /* grid-row: 1/ 2;
+    grid-column: ; */
+    padding-left: 4%;
+    margin-top: 11%;
+}
+.bild3{
+    width: 25%;
+    /* grid-row: ;
+    grid-column: ; */
+    padding-left: 79%;
+    margin-top: -4%;
+}
+.bild4{
+    width: 20%;
+    /* grid-row: ;
+    grid-column: ; */
+    padding-left: 14%;
+    margin-top: 1%;
+}
+.bild5{
+    width: 20%;
+    /* grid-row: ;
+    grid-column: ; */
+    padding-left: 65%;
+    margin-top: -2%;
+}
+.bild6{
+    width: 25%;
+    /* grid-row: ;
+    grid-column: ; */
+    padding-left: 0;
+    margin-top: 6%;
+}
+
+.golden-bear {
+
+    background-color: black;
+    color: white;
+    
+    margin-top: -6%;
+    margin-bottom: 25%;
+
+    padding-top: 13%;
+    padding-left: 8%;
+}
+.golden-bear-a h4 {
+    font-size: 1.4em;
+    padding-bottom: 2%;
+    font-weight: 400;
+}
+.golden-bear-a .golden-bear-1 {
+    display: flex;
+    padding-right: 8%;
+}
+.golden-bear-a div h2 {
+
+    font-family: 'Larish';
+    font-size: 6em;
+    width: 60%;
+    padding-right: 22%;
+    line-height: 0.95;
+}
+.golden-bear-1 h5 {
+    font-size: 1.2em;
+    font-weight: 400;
+    padding-top: 4%;
+    padding-bottom: 15%;
+}
+
+.golden-bear-1 p {
+    font-family: 'LarishNeueSemibold';
+    font-size: 2em;
+}
+
+.golden-bear-img {
+    display: flex;
+    position: relative;   
+}
+.golden-bear-img .gbimg-img {
+
+    width: 60%;
+    margin-bottom: -15%;
+}
+.golden-bear-img .gbimg-b {
+    width: 30%;
+    height: 80%;
+    padding-top: 15%;
+    margin-left: -8%;
+    margin-bottom: -15%;
+}
+.golden-bear-img .circle {
+    width: 40%;
+    animation:roll 5s linear infinite;
+    position: absolute;
+    top: 65%;
+    right: -15%;
+    z-index: -1;
+}
+
+ @keyframes roll { 
+
+    100% { -webkit-transform: rotate(360deg); transform: rotate(360deg);
+    
+    } 
+} 
+.poppy-bear {
+
+    padding-left: 8%;
+    padding-top: 15%;
+    margin-top: -6%;
+}
+.pb-1 h4 {
+
+    font-size: 1.4em;
+    
+    font-weight: 400;
+    padding-bottom: 2%;
+}
+.pb-1 .pb2 {
+    display: flex;
+    padding-right: 8%;
+}
+
+
+.pb-1 div h2 {
+
+    font-family: 'LarishNeueSemibold';
+    
+    width: 60%;
+    padding-right: 22%;
+
+    line-height: 0.95;
+    font-size: 6em;
+}
+
+
+.pb-2 h5 {
+    font-size: 1.2em;
+    font-weight: 380;
+
+    padding-top: 4%;
+    padding-bottom: 15%;
+}
+.pb-2 p {
+    font-family: 'LarishNeueSemibold';
+    font-size: 2em;
+}
+
+.poppy-bear-img {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 8%;
+    padding-top: 15%;
+    width: 65%;
+    margin-bottom: -10%;
+    width: 35%;
+    
+    margin-left: -10%; 
+}
+.pb-img-x {
+
+    width: 65%;
+   
+    margin-left: -10%;
+    margin-bottom: -10%;
+}
+
+.pb-img-y {
+    width: 35%;
+    padding-top: 15%;
+}
+
+footer {
+    
+    margin-top: 15%;
+    background-color: black;
+    color: white;
+    position: relative;
+
+    overflow: hidden;
+
+}
+
+@keyframes flow {
+
+    0%   {transform: translate(0);}
+
+    50%  {transform: translate(33% , 0);}
+
+    100% {transform: translate(0);}
+
+}
+.animation {
+    width: 100vw;
+    position: absolute;
+    right: -20%;
+    top: 10%;    
+    transform: rotate(45deg);
+}
+.animation h2 {
+
+    background: white;
+
+    font-family: 'LarishNeueSemibold';
+    font-size: 6em;
+    color: black;
+   
+
+    animation-name: flow;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+}
+
+.animation span {
+
+    -webkit-text-stroke: 2px black;
+    color: white;
+}
+
+.footer-1 {
+    width: 38%;
+    padding-left: 8%;
+    padding-top: 10%;
+    
+}
+.footer-1 h4 {
+    
+    padding-bottom: 3%;
+    font-size: 1.2em;
+    font-weight: 390;
+}
+ .footer-1 p {
+
+    font-family: 'Larish';
+    font-size: 2.2em;
+    line-height: 1.3;
+    margin-bottom: 8%;
+
+}
+.footer-1 a {
+    
+    text-decoration: none;
+    border-radius: 3px;
+    margin: 10% 0;
+    border: 2px solid white;
+    box-shadow: 0 0 2px white;
+    padding: 4% 8%;
+    color: white;
+    font-size: 1.3em;
+    transition: 0.6s ease; 
+}
+.footer-1 a:hover {
+
+    background: white;
+    text-decoration: none;
+    color: black;
+}
+.footer-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding-bottom: 3%; 
+    padding-left: 8%;
+    margin-top: 5%;
+}
+.facebook{
+
+    width: 15%;
+    padding-right: 10%;
+}
+ .instagram{
+
+    width: 15%;
+    padding-right: 10%;
+}
+
+.linkedin {
+
+    width: 15%;
+    padding-right: 10%;
+}
+.rc-logo img {
+
+    width: 20%;
+}
+.sm-link h4 , .sm-link h3  {
+
+    font-size: 1.2em;
+    margin-top: 8%;
+    font-weight: 400;
+}
+
